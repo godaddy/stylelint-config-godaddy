@@ -1,0 +1,26 @@
+{
+  "name": "stylelint-config-godaddy",
+  "version": "0.1.0",
+  "description": "A repository for CSS and Sass linting rules being used in Gasket, UXCore2 and others.",
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "scripts": {
+    "release": "standard-version"
+  },
+  "repository": "godaddy/stylelint-config-godaddy",
+  "main": "index.js",
+  "author": "GoDaddy Operating Company, LLC",
+  "license": "MIT",
+  "peerDependencies": {
+    "stylelint": "^9.3.0"
+  },
+  "dependencies": {
+    "stylelint-scss": "^3.1.3"
+  },
+  "devDependencies": {
+    "standard-version": "^4.4.0",
+    "stylelint": "^9.3.0"
+  }
+}
