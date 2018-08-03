@@ -7,6 +7,8 @@
     "stylelint-config"
   ],
   "scripts": {
+    "pretest": "echo 'Ensure index.js has no syntax errors by requiring it.'",
+    "test": "node -pe \"require('./index')\"",
     "release": "standard-version"
   },
   "repository": "godaddy/stylelint-config-godaddy",
