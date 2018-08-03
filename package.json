@@ -1,7 +1,7 @@
 {
   "name": "stylelint-config-godaddy",
   "version": "0.1.0",
-  "description": "A repository for CSS and Sass linting rules being used in Gasket, UXCore2 and others.",
+  "description": "A repository for CSS and Sass linting rules that have been derived from best practices and the GoDaddy Styleguide.",
   "keywords": [
     "stylelint",
     "stylelint-config"
