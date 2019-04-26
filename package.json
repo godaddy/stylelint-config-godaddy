@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-godaddy",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A repository for CSS and Sass linting rules being used at GoDaddy.",
   "keywords": [
     "stylelint",
