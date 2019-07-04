@@ -9,7 +9,9 @@
   "scripts": {
     "pretest": "echo 'Ensure index.js has no syntax errors by requiring it.'",
     "test": "node -pe \"require('./index')\"",
-    "release": "standard-version"
+    "release": "standard-version",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": "godaddy/stylelint-config-godaddy",
   "main": "index.js",
@@ -19,10 +21,12 @@
     "stylelint": "^10.0.1"
   },
   "dependencies": {
-    "stylelint-scss": "^3.6.0"
+    "stylelint-scss": "^3.6.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "standard-version": "^5.0.2",
     "stylelint": "^10.0.1"
-  }
+  },
+  "snyk": true
 }
