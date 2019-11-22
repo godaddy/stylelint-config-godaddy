@@ -8,8 +8,10 @@
   ],
   "scripts": {
     "pretest": "echo 'Ensure index.js has no syntax errors by requiring it.'",
-    "test": "node -pe \"require('./index')\"",
-    "lint": "stylelint 'test/*.scss'",
+    "test:syntax": "node -pe \"require('./index')\"",
+    "test:valid": "stylelint 'test/valid.scss'",
+    "test:invalid": "node ./test/verify-failure.js",
+    "test": "npm run test:syntax && npm run test:valid && npm run test:invalid",
     "release": "standard-version"
   },
   "repository": "godaddy/stylelint-config-godaddy",
