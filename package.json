@@ -8,7 +8,10 @@
   ],
   "scripts": {
     "pretest": "echo 'Ensure index.js has no syntax errors by requiring it.'",
-    "test": "node -pe \"require('./index')\"",
+    "test:syntax": "node -pe \"require('./index')\"",
+    "test:valid": "stylelint 'test/valid.scss'",
+    "test:invalid": "node ./test/verify-failure.js",
+    "test": "npm run test:syntax && npm run test:valid && npm run test:invalid",
     "release": "standard-version"
   },
   "repository": "godaddy/stylelint-config-godaddy",
@@ -16,13 +19,13 @@
   "author": "GoDaddy Operating Company, LLC",
   "license": "MIT",
   "peerDependencies": {
-    "stylelint": "^11.1.1"
+    "stylelint": "^12.0.0"
   },
   "dependencies": {
-    "stylelint-scss": "^3.11.1"
+    "stylelint-scss": "^3.13.0"
   },
   "devDependencies": {
-    "standard-version": "^7.0.0",
-    "stylelint": "^11.1.1"
+    "standard-version": "^7.0.1",
+    "stylelint": "^12.0.0"
   }
 }

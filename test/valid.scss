@@ -1,0 +1,17 @@
+.test-class {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  margin-bottom: 0;
+  font-size: 1.6rem;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 8px;
+  line-height: 1;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+#we-dont-use-ids {
+  padding: 20px;
+  line-height: 1.125rem;
+}
