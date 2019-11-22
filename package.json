@@ -9,6 +9,7 @@
   "scripts": {
     "pretest": "echo 'Ensure index.js has no syntax errors by requiring it.'",
     "test": "node -pe \"require('./index')\"",
+    "lint": "stylelint 'test/*.scss'",
     "release": "standard-version"
   },
   "repository": "godaddy/stylelint-config-godaddy",
