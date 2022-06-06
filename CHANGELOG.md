@@ -1,5 +1,8 @@
 # stylelint-config-godaddy
 
+- Bump `stylelint-scss` to `^4.2.0`.
+- Bump `standard-version` to `^9.5.0`.
+- Bump `stylelint` to `^14.8.5`.
 ### 0.4.0
 
 - Added valid/invalid linting tests
