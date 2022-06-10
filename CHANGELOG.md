@@ -1,8 +1,9 @@
-# stylelint-config-godaddy
+# Changelog
 
-- Bump `stylelint-scss` to `^4.2.0`.
-- Bump `standard-version` to `^9.5.0`.
-- Bump `stylelint` to `^14.8.5`.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [0.5.1](https://github.com/godaddy/stylelint-config-godaddy/compare/v0.5.0...v0.5.1) (2022-06-10)
+
 ### 0.4.0
 
 - Added valid/invalid linting tests
