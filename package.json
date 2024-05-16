@@ -14,7 +14,10 @@
     "test": "npm run test:syntax && npm run test:valid && npm run test:invalid",
     "release": "standard-version"
   },
-  "repository": "godaddy/stylelint-config-godaddy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godaddy/stylelint-config-godaddy.git"
+  },
   "main": "index.js",
   "author": "GoDaddy Operating Company, LLC",
   "license": "MIT",
