@@ -19,14 +19,14 @@
   "author": "GoDaddy Operating Company, LLC",
   "license": "MIT",
   "peerDependencies": {
-    "stylelint": ">=14"
+    "stylelint": "^15"
   },
   "dependencies": {
-    "stylelint-scss": "^4.2.0",
-    "postcss-scss": "^4.0.4"
+    "postcss-scss": "^4.0.9",
+    "stylelint-scss": "^5.3.2"
   },
   "devDependencies": {
     "standard-version": "^9.5.0",
-    "stylelint": "^14.8.5"
+    "stylelint": "^15.11.0"
   }
 }
