@@ -27,6 +27,6 @@
   },
   "devDependencies": {
     "standard-version": "^9.5.0",
-    "stylelint": "^15"
+    "stylelint": "^15.11.0"
   }
 }
