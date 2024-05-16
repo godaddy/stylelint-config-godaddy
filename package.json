@@ -19,7 +19,7 @@
   "author": "GoDaddy Operating Company, LLC",
   "license": "MIT",
   "peerDependencies": {
-    "stylelint": ">=14"
+    "stylelint": "^15"
   },
   "dependencies": {
     "stylelint-scss": "^4.2.0",
